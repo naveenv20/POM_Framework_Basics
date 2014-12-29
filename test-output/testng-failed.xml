@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
+<suite name="Failed suite [Selenium carwale- POM framework]">
+  <listeners>
+    <listener class-name="com.qtpselenium.util.TestsListenerAdapter"/>
+  </listeners>
+  <test name="Test 1(failed)">
+    <classes>
+      <class name="com.qtpselenium.testcases.LoginTest">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.qtpselenium.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Test 1(failed) -->
+</suite> <!-- Failed suite [Selenium carwale- POM framework] -->
+=======
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.maax.businessmanager.common.sampleTest">
+        <methods>
+          <include name="basicnavigation" invocation-numbers="null 0"/>
+        </methods>
+      </class> <!-- com.maax.businessmanager.common.sampleTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
+>>>>>>> beba7d561b6fd5b4f6b2c000c887f844ee448dd7

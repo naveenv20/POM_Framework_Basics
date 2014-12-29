@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+<<<<<<< HEAD
+      <class name="com.qtpselenium.testcases.LoginTest">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.qtpselenium.testcases.LoginTest -->
+=======
+      <class name="com.maax.businessmanager.common.sampleTest">
+        <methods>
+          <include name="basicnavigation" invocation-numbers="null 0"/>
+        </methods>
+      </class> <!-- com.maax.businessmanager.common.sampleTest -->
+>>>>>>> beba7d561b6fd5b4f6b2c000c887f844ee448dd7
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

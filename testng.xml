@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--suite name="Selenium GRID" verbose="3" parallel="tests" thread-count="2"-->
+<suite name="Selenium carwale- POM framework">
+
+<listeners>
+    <listener class-name="com.qtpselenium.util.TestsListenerAdapter"/>
+</listeners>
+
+<test name="Test 1">
+
+    <classes>
+        <class name="com.qtpselenium.testcases.LoginTest"></class>  
+    </classes>
+</test>
+<test name="Test 2">
+
+    <classes>
+        <class name="com.qtpselenium.testcases.mysampletest"></class>  
+    </classes>
+</test>
+
+</suite>

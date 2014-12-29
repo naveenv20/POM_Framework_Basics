@@ -1,0 +1,7 @@
+1. execute multiple test cases
+2. Reports
+3. Parametrisation data
+4. execute single test multiple times
+5. logging
+6. OR properties
+7. Mail reports
